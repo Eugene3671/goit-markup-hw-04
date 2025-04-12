@@ -45,6 +45,8 @@ img {
 /* #region Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -103,7 +105,7 @@ img {
 .menu-link.active::after {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -1px;
   border-radius: 2px;
   width: 48px;
   height: 4px;
